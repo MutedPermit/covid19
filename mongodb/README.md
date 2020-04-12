@@ -14,4 +14,20 @@ We're opening the necessary ports as stated on the [documentation](https://docs.
 
 ## The data
 I use the data coming from [this](https://github.com/CSSEGISandData/COVID-19) github repository. Thanks to the Johns Hopkins CSSE.
-The data is preprocessed and then stored into the mongo db.
+The data is preprocessed and then stored into the mongo db, in the following format:
+```json
+{
+    "_id" : ObjectId("XXXXXX"),
+    "Date" : "1/22/20",
+    "Afghanistan" : 0,
+    "Albania" : 0,
+// ....
+    "Zimbabwe" : 0
+}
+```
+## Updating data
+To update the data in the mongoDB, do:
+```shell script
+cd COVID-19
+python update_db.py #Please modify the script to update the DB you want
+```
