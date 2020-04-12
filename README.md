@@ -4,10 +4,10 @@ The world has changed completely in the last weeks, a pandemic was announced in 
 ## The plan
 For now the plan of this repository is as follows:
 
-    * Set up a mongoDB where to store the information. Also set up a pipeline to fetch data from reliable sources and uptade the DB accordingly.
-    * Perform an statistical analysis on the data as well as some visualisation
-    * Create an ML model to predict the course of the pandemic.
-    * Create a web application for visualization and query of ML model.
+* Set up a mongoDB where to store the information. Also set up a pipeline to fetch data from reliable sources and uptade the DB accordingly.
+* Perform an statistical analysis on the data as well as some visualisation
+* Create an ML model to predict the course of the pandemic.
+* Create a web application for visualization and query of ML model.
     
 ## Disclaimer
 This is a personal project and I don't know how much I can do.
